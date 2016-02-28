@@ -7,6 +7,7 @@ f3 = "C:\\Users\\Saba\\Downloads\\Gap Scan\\UPC_Exclusions.csv"
 #UPC = UPC1.readLines()
 #Dates = open(f2,"r")
 #Date = Date1.readLines()
+#test comment
 with open(f3,"w") as outfile:
 	for UPC in open(f1,"r").readlines():
 		for Date in open(f2,"r").readlines():
